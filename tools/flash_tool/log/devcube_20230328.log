@@ -1,0 +1,77 @@
+2023-03-28 15:31:25,010 - INFO - Warning: This v1 partition table is deprecated
+2023-03-28 15:32:14,067 - INFO - [15:32:14.067] - eflash loader bin is eflash_loader_40m.bin
+2023-03-28 15:32:14,076 - INFO - [15:32:14.076] - create partition.bin, pt_new is True
+2023-03-28 15:32:14,085 - INFO - [15:32:14.085] - fw_boot_head_gen xtal: 40M
+2023-03-28 15:32:14,089 - INFO - [15:32:14.089] - Create bootheader using D:\Desktop\v1.8.1\v1.8.1\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini
+2023-03-28 15:32:14,089 - INFO - [15:32:14.089] - Updating data according to <D:\Desktop\v1.8.1\v1.8.1\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini[BOOTHEADER_CFG]>
+2023-03-28 15:32:14,097 - INFO - [15:32:14.097] - Created file len:176
+2023-03-28 15:32:14,103 - INFO - [15:32:14.103] - Create efuse using D:\Desktop\v1.8.1\v1.8.1\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini
+2023-03-28 15:32:14,105 - INFO - [15:32:14.105] - Updating data according to <D:\Desktop\v1.8.1\v1.8.1\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini[EFUSE_CFG]>
+2023-03-28 15:32:14,106 - INFO - [15:32:14.106] - Created file len:128
+2023-03-28 15:32:14,116 - INFO - [15:32:14.116] - Image hash is b'2b6e636f8817b35bc922846d7a82f3c9b3947bb7c19fad1078859fa8b9692e10'
+2023-03-28 15:32:14,116 - INFO - [15:32:14.116] - Hash ignored
+2023-03-28 15:32:14,116 - INFO - [15:32:14.116] - Header crc ignored
+2023-03-28 15:32:14,117 - INFO - [15:32:14.117] - Write flash img
+2023-03-28 15:32:14,165 - INFO - [15:32:14.164] - fw_boot_head_gen xtal: 40M
+2023-03-28 15:32:14,166 - INFO - [15:32:14.166] - Create bootheader using D:\Desktop\v1.8.1\v1.8.1\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini
+2023-03-28 15:32:14,167 - INFO - [15:32:14.167] - Updating data according to <D:\Desktop\v1.8.1\v1.8.1\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini[BOOTHEADER_CFG]>
+2023-03-28 15:32:14,169 - INFO - [15:32:14.168] - Created file len:176
+2023-03-28 15:32:14,172 - INFO - [15:32:14.172] - Create efuse using D:\Desktop\v1.8.1\v1.8.1\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini
+2023-03-28 15:32:14,174 - INFO - [15:32:14.174] - Updating data according to <D:\Desktop\v1.8.1\v1.8.1\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini[EFUSE_CFG]>
+2023-03-28 15:32:14,176 - INFO - [15:32:14.176] - Created file len:128
+2023-03-28 15:32:14,200 - INFO - [15:32:14.200] - Image hash is b'af34f86c175308fbc7d550ed2b9cde4ce44ed65a552d1d5a45ceaf7a04cec1d6'
+2023-03-28 15:32:14,201 - INFO - [15:32:14.200] - Header crc: b'097fd35e'
+2023-03-28 15:32:14,201 - INFO - [15:32:14.201] - Write flash img
+2023-03-28 15:32:14,207 - INFO - [15:32:14.207] - FW Header is 176, 3920 still needed
+2023-03-28 15:32:14,208 - INFO - [15:32:14.208] - FW OTA bin header is Done. Len is 4096
+2023-03-28 15:32:14,218 - INFO - [15:32:14.218] - BL60X_OTA_Ver1.0
+2023-03-28 15:32:14,230 - INFO - [15:32:14.230] - FW OTA bin is Done. Len is 84976
+2023-03-28 15:32:14,272 - INFO - [15:32:14.272] - OTA XZ file len = 45684
+2023-03-28 15:32:14,272 - INFO - [15:32:14.272] - Partiton len = 1048576
+2023-03-28 15:32:14,274 - INFO - [15:32:14.274] - BL60X_OTA_Ver1.0
+2023-03-28 15:32:14,282 - INFO - [15:32:14.282] - FW OTA xz is Done
+2023-03-28 15:32:14,501 - INFO - [15:32:14.501] - Version: eflash_loader_v2.4.3
+2023-03-28 15:32:14,501 - INFO - [15:32:14.501] - Program Start
+2023-03-28 15:32:14,503 - INFO - [15:32:14.503] - D:\Desktop\v1.8.1\v1.8.1\chips\bl602\eflash_loader/eflash_loader_cfg.ini
+2023-03-28 15:32:14,504 - INFO - [15:32:14.504] - Config file: D:\Desktop\v1.8.1\v1.8.1\chips\bl602\eflash_loader/eflash_loader_cfg.ini
+2023-03-28 15:32:14,506 - INFO - [15:32:14.505] - serial port is COM7
+2023-03-28 15:32:14,507 - INFO - [15:32:14.507] - cpu_reset=False
+2023-03-28 15:32:14,507 - INFO - [15:32:14.507] - chiptype: bl602
+2023-03-28 15:32:14,507 - INFO - [15:32:14.507] - com speed: 2000000
+2023-03-28 15:32:14,507 - INFO - [15:32:14.507] - Eflash load helper file: D:\Desktop\v1.8.1\v1.8.1\chips\bl602\eflash_loader/eflash_loader_40m.bin
+2023-03-28 15:32:14,508 - INFO - [15:32:14.508] - Load eflash_loader.bin via uart
+2023-03-28 15:32:14,809 - INFO - [15:32:14.809] - tx rx and power off, press the machine!
+2023-03-28 15:32:14,811 - INFO - [15:32:14.810] - cutoff time is 0.1
+2023-03-28 15:32:14,921 - INFO - [15:32:14.921] - power on tx and rx
+2023-03-28 15:32:15,734 - INFO - [15:32:15.734] - reset cnt: 0, reset hold: 0.005, shake hand delay: 0.1
+2023-03-28 15:32:15,735 - INFO - [15:32:15.735] - clean buf
+2023-03-28 15:32:15,739 - INFO - [15:32:15.739] - send sync
+2023-03-28 15:32:15,972 - INFO - [15:32:15.972] - ack is b'008000800000000000800080000000f800008000f80000f800008000000080000080008000800000000000800000000000800080000000000000008000800080f8f80080008000f800000000008000f8000000000000008000f8000000000080000000800000000000800000000080f8f8800000000080008000000080f880000000000000800000000000800000008000800080f800'
+2023-03-28 15:32:15,973 - INFO - [15:32:15.972] - reshake
+2023-03-28 15:32:16,252 - INFO - [15:32:16.252] - tx rx and power off, press the machine!
+2023-03-28 15:32:16,253 - INFO - [15:32:16.253] - cutoff time is 0.1
+2023-03-28 15:32:16,362 - INFO - [15:32:16.361] - power on tx and rx
+2023-03-28 15:32:17,179 - INFO - [15:32:17.178] - reset cnt: 0, reset hold: 0.005, shake hand delay: 0.1
+2023-03-28 15:32:17,179 - INFO - [15:32:17.179] - clean buf
+2023-03-28 15:32:17,184 - INFO - [15:32:17.184] - send sync
+2023-03-28 15:32:17,415 - INFO - [15:32:17.415] - ack is b'008000800080008000000000008000800000000080008000000078800080f8f8000000800000000000000080008000000000f800800000008000807800000000800080008000000080008000000000008000f8000000800080000000000000800000008000800080000000800000f8000000800080000000800080000000000080000000800080000000800080000000800080f8'
+2023-03-28 15:32:17,416 - INFO - [15:32:17.415] - reshake
+2023-03-28 15:32:17,417 - ERROR - [15:32:17.417] - shake hand fail
+2023-03-28 15:32:17,417 - INFO - [15:32:17.417] - ########################################################################
+2023-03-28 15:32:17,417 - INFO - [15:32:17.417] - 请按照以下描述排查问题：
+2023-03-28 15:32:17,418 - INFO - [15:32:17.418] - GPIO8是否上拉到板子自身的3.3V，而不是外部的3.3V
+2023-03-28 15:32:17,418 - INFO - [15:32:17.418] - GPIO7(RX)是否连接到USB转串口的TX引脚
+2023-03-28 15:32:17,418 - INFO - [15:32:17.418] - GPIO16(TX)是否连接到USB转串口的RX引脚
+2023-03-28 15:32:17,418 - INFO - [15:32:17.418] - 在使用烧录软件进行烧录前，是否在GPIO8拉高的情况下，使用Reset/Chip_En复位了芯片
+2023-03-28 15:32:17,418 - INFO - [15:32:17.418] - 烧录软件所选择的COM口，是否是连接芯片的串口
+2023-03-28 15:32:17,418 - INFO - [15:32:17.418] - 烧录软件上选择的波特率是否是USB转串口支持的波特率
+2023-03-28 15:32:17,419 - INFO - [15:32:17.419] - 3.3V供电是否正常
+2023-03-28 15:32:17,419 - INFO - [15:32:17.419] - 板子供电电流是否正常(烧录模式下，芯片耗电电流5-7mA)
+2023-03-28 15:32:17,419 - INFO - [15:32:17.419] - ########################################################################
+2023-03-28 15:32:17,419 - ERROR - [15:32:17.419] - shake hand fail
+2023-03-28 15:32:17,445 - INFO - [15:32:17.445] - Load helper bin time cost(ms): 2937.2607421875
+2023-03-28 15:32:17,446 - ERROR - [15:32:17.445] - {"ErrorCode": "0050","ErrorMsg":"BFLB IMG LOAD SHAKEHAND FAIL"}
+2023-03-28 15:32:17,446 - ERROR - [15:32:17.446] - {"ErrorCode": "0003","ErrorMsg":"BFLB LOAD HELP BIN FAIL"}
+2023-03-28 15:32:17,446 - INFO - [15:32:17.446] - Burn Retry
+2023-03-28 15:32:17,446 - INFO - [15:32:17.446] - 0
+2023-03-28 15:32:17,446 - ERROR - [15:32:17.446] - Burn return with retry fail
