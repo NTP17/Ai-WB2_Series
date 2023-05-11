@@ -1,0 +1,212 @@
+2023-05-11 16:35:40,607 - INFO - [16:35:40.606] - ========= Interface is Uart =========
+2023-05-11 16:35:40,633 - INFO - [16:35:40.632] - eflash loader bin is eflash_loader_40m.bin
+2023-05-11 16:35:40,639 - INFO - [16:35:40.639] - ========= chip flash id: ef4015 =========
+2023-05-11 16:35:40,667 - INFO - [16:35:40.667] - create partition.bin, pt_new is True
+2023-05-11 16:35:40,708 - INFO - [16:35:40.707] - bl60x_fw_boot_head_gen xtal: 40M
+2023-05-11 16:35:40,716 - INFO - [16:35:40.715] - Create bootheader using D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini
+2023-05-11 16:35:40,718 - INFO - [16:35:40.717] - Updating data according to <D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini[BOOTHEADER_CFG]>
+2023-05-11 16:35:40,723 - INFO - [16:35:40.722] - Created file len:176
+2023-05-11 16:35:40,730 - INFO - [16:35:40.729] - Create efuse using D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini
+2023-05-11 16:35:40,734 - INFO - [16:35:40.733] - Updating data according to <D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini[EFUSE_CFG]>
+2023-05-11 16:35:40,739 - INFO - [16:35:40.739] - Created file len:128
+2023-05-11 16:35:40,771 - INFO - [16:35:40.771] - ========= sp image create =========
+2023-05-11 16:35:40,790 - INFO - [16:35:40.789] - Image hash is b'f85f723fcc03c184d3b0c4c39d769b24a48c6ba2e1d02eea005cdeb9372e78c8'
+2023-05-11 16:35:40,790 - INFO - [16:35:40.790] - Hash ignored
+2023-05-11 16:35:40,791 - INFO - [16:35:40.791] - Header crc ignored
+2023-05-11 16:35:40,791 - INFO - [16:35:40.791] - Write flash img
+2023-05-11 16:35:40,818 - INFO - [16:35:40.818] - bl60x_fw_boot_head_gen xtal: 40M
+2023-05-11 16:35:40,824 - INFO - [16:35:40.824] - Create bootheader using D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini
+2023-05-11 16:35:40,825 - INFO - [16:35:40.825] - Updating data according to <D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini[BOOTHEADER_CFG]>
+2023-05-11 16:35:40,830 - INFO - [16:35:40.830] - Created file len:176
+2023-05-11 16:35:40,836 - INFO - [16:35:40.836] - Create efuse using D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini
+2023-05-11 16:35:40,844 - INFO - [16:35:40.844] - Updating data according to <D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\img_create_iot/efuse_bootheader_cfg.ini[EFUSE_CFG]>
+2023-05-11 16:35:40,851 - INFO - [16:35:40.850] - Created file len:128
+2023-05-11 16:35:40,897 - INFO - [16:35:40.896] - ========= sp image create =========
+2023-05-11 16:35:40,920 - INFO - [16:35:40.919] - Image hash is b'37419fc3cb282f092ce978f49c25028e17bbbbb7922861e270b617283ceb2625'
+2023-05-11 16:35:40,921 - INFO - [16:35:40.920] - Header crc: b'5897818a'
+2023-05-11 16:35:40,921 - INFO - [16:35:40.921] - Write flash img
+2023-05-11 16:35:40,952 - INFO - [16:35:40.952] - FW Header is 176, 3920 still needed
+2023-05-11 16:35:40,955 - INFO - [16:35:40.954] - FW OTA bin header is Done. Len is 4096
+2023-05-11 16:35:40,987 - INFO - [16:35:40.986] - BL60X_OTA_Ver1.0
+2023-05-11 16:35:41,010 - INFO - [16:35:41.009] - FW OTA bin is Done. Len is 72832
+2023-05-11 16:35:41,127 - INFO - [16:35:41.127] - OTA XZ file len = 39432
+2023-05-11 16:35:41,128 - INFO - [16:35:41.127] - Partiton len = 557056
+2023-05-11 16:35:41,129 - INFO - [16:35:41.129] - BL60X_OTA_Ver1.0
+2023-05-11 16:35:41,146 - INFO - [16:35:41.145] - FW OTA xz is Done
+2023-05-11 16:35:41,147 - INFO - [16:35:41.146] - ========= eflash loader config =========
+2023-05-11 16:35:41,172 - INFO - [16:35:41.172] - =========D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\device_tree\04-bl_factory_params_IoTKitA_40M-20220625.dts ——> D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602/device_tree/ro_params.dtb=========
+2023-05-11 16:35:41,615 - INFO - [16:35:41.614] - Version: eflash_loader_v2.4.1
+2023-05-11 16:35:41,615 - INFO - [16:35:41.615] - Program Start
+2023-05-11 16:35:41,616 - INFO - [16:35:41.616] - ========= eflash loader cmd arguments =========
+2023-05-11 16:35:41,616 - INFO - [16:35:41.616] - D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\eflash_loader/eflash_loader_cfg.ini
+2023-05-11 16:35:41,617 - INFO - [16:35:41.617] - Config file: D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\eflash_loader/eflash_loader_cfg.ini
+2023-05-11 16:35:41,648 - INFO - [16:35:41.648] - serial port is COM4
+2023-05-11 16:35:41,649 - INFO - [16:35:41.649] - cpu_reset=False
+2023-05-11 16:35:41,650 - INFO - [16:35:41.650] - chiptype: bl602
+2023-05-11 16:35:41,650 - INFO - [16:35:41.650] - ========= Interface is uart =========
+2023-05-11 16:35:41,651 - INFO - [16:35:41.651] - com speed: 921600
+2023-05-11 16:35:41,652 - INFO - [16:35:41.651] - Eflash load helper file: D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\eflash_loader/eflash_loader_40m.bin
+2023-05-11 16:35:41,653 - INFO - [16:35:41.653] - Eflash load helper file: D:\Ai-Thinker-WB2\tools\flash_tool\chips\bl602\eflash_loader/eflash_loader_40m.bin
+2023-05-11 16:35:41,654 - INFO - [16:35:41.654] - ========= load eflash_loader.bin =========
+2023-05-11 16:35:41,654 - INFO - [16:35:41.654] - Load eflash_loader.bin via uart
+2023-05-11 16:35:41,655 - INFO - [16:35:41.655] - ========= image load =========
+2023-05-11 16:35:41,710 - INFO - [16:35:41.709] - Please Press Reset Key!
+2023-05-11 16:35:45,090 - INFO - [16:35:45.090] - read ready
+2023-05-11 16:35:45,092 - INFO - [16:35:45.092] - shake hand success
+2023-05-11 16:35:45,106 - INFO - [16:35:45.106] - get_boot_info
+2023-05-11 16:35:45,110 - INFO - [16:35:45.110] - data read is b'0000000100000000000000000000000000000000'
+2023-05-11 16:35:45,111 - INFO - [16:35:45.111] - ========= ChipID: 000000000000 =========
+2023-05-11 16:35:45,111 - INFO - [16:35:45.111] - last boot info: None
+2023-05-11 16:35:45,112 - INFO - [16:35:45.112] - sign is 0 encrypt is 0
+2023-05-11 16:35:45,141 - INFO - [16:35:45.141] - segcnt is 1
+2023-05-11 16:35:45,150 - INFO - [16:35:45.149] - segdata_len is 37152
+2023-05-11 16:35:45,180 - INFO - [16:35:45.180] - 4080/37152
+2023-05-11 16:35:45,210 - INFO - [16:35:45.210] - 8160/37152
+2023-05-11 16:35:45,240 - INFO - [16:35:45.240] - 12240/37152
+2023-05-11 16:35:45,270 - INFO - [16:35:45.270] - 16320/37152
+2023-05-11 16:35:45,300 - INFO - [16:35:45.300] - 20400/37152
+2023-05-11 16:35:45,330 - INFO - [16:35:45.330] - 24480/37152
+2023-05-11 16:35:45,360 - INFO - [16:35:45.360] - 28560/37152
+2023-05-11 16:35:45,390 - INFO - [16:35:45.390] - 32640/37152
+2023-05-11 16:35:45,420 - INFO - [16:35:45.420] - 36720/37152
+2023-05-11 16:35:45,426 - INFO - [16:35:45.426] - 37152/37152
+2023-05-11 16:35:45,429 - INFO - [16:35:45.429] - Run img
+2023-05-11 16:35:45,536 - INFO - [16:35:45.536] - Load helper bin time cost(ms): 3880.99951171875
+2023-05-11 16:35:45,646 - INFO - [16:35:45.646] - flash set para
+2023-05-11 16:35:45,647 - INFO - [16:35:45.647] - ========= flash read jedec ID =========
+2023-05-11 16:35:45,648 - INFO - [16:35:45.648] - Flash load shake hand
+2023-05-11 16:35:45,669 - INFO - [16:35:45.669] - default set DTR high
+2023-05-11 16:35:45,774 - INFO - [16:35:45.774] - clean buf
+2023-05-11 16:35:45,789 - INFO - [16:35:45.789] - send sync
+2023-05-11 16:35:46,030 - INFO - [16:35:46.030] - ack is b'4f4b'
+2023-05-11 16:35:46,081 - INFO - [16:35:46.081] - Read flash jedec ID
+2023-05-11 16:35:46,082 - INFO - [16:35:46.082] - readdata:
+2023-05-11 16:35:46,083 - INFO - [16:35:46.082] - b'5e401680'
+2023-05-11 16:35:46,083 - INFO - [16:35:46.083] - Finished
+2023-05-11 16:35:46,107 - INFO - [16:35:46.107] - Program operation
+2023-05-11 16:35:46,108 - INFO - [16:35:46.108] - Flash Chip Erase
+2023-05-11 16:35:47,127 - INFO - [16:35:47.127] - erase pending
+2023-05-11 16:35:48,136 - INFO - [16:35:48.136] - erase pending
+2023-05-11 16:35:49,144 - INFO - [16:35:49.144] - erase pending
+2023-05-11 16:35:50,153 - INFO - [16:35:50.153] - erase pending
+2023-05-11 16:35:51,162 - INFO - [16:35:51.162] - erase pending
+2023-05-11 16:35:52,170 - INFO - [16:35:52.170] - erase pending
+2023-05-11 16:35:53,179 - INFO - [16:35:53.179] - erase pending
+2023-05-11 16:35:54,188 - INFO - [16:35:54.188] - erase pending
+2023-05-11 16:35:55,196 - INFO - [16:35:55.196] - erase pending
+2023-05-11 16:35:56,205 - INFO - [16:35:56.205] - erase pending
+2023-05-11 16:35:57,213 - INFO - [16:35:57.213] - erase pending
+2023-05-11 16:35:58,028 - INFO - [16:35:58.028] - Chip erase time cost(ms): 11919.999267578125
+2023-05-11 16:35:58,037 - INFO - [16:35:58.037] - Dealing Index 0
+2023-05-11 16:35:58,038 - INFO - [16:35:58.038] - ========= programming chips\bl602\img_create_iot\whole_img_boot2.bin
+2023-05-11 16:35:58,046 - INFO - [16:35:58.046] - ========= flash load =========
+2023-05-11 16:35:58,103 - INFO - [16:35:58.103] - decompress flash load 26336
+2023-05-11 16:35:58,132 - INFO - [16:35:58.132] - Load 2048/26336 {"progress":7}
+2023-05-11 16:35:58,160 - INFO - [16:35:58.160] - Load 4096/26336 {"progress":15}
+2023-05-11 16:35:58,188 - INFO - [16:35:58.188] - Load 6144/26336 {"progress":23}
+2023-05-11 16:35:58,216 - INFO - [16:35:58.216] - Load 8192/26336 {"progress":31}
+2023-05-11 16:35:58,245 - INFO - [16:35:58.245] - Load 10240/26336 {"progress":38}
+2023-05-11 16:35:58,273 - INFO - [16:35:58.273] - Load 12288/26336 {"progress":46}
+2023-05-11 16:35:58,301 - INFO - [16:35:58.301] - Load 14336/26336 {"progress":54}
+2023-05-11 16:35:58,329 - INFO - [16:35:58.329] - Load 16384/26336 {"progress":62}
+2023-05-11 16:35:58,357 - INFO - [16:35:58.357] - Load 18432/26336 {"progress":69}
+2023-05-11 16:35:58,386 - INFO - [16:35:58.386] - Load 20480/26336 {"progress":77}
+2023-05-11 16:35:58,414 - INFO - [16:35:58.414] - Load 22528/26336 {"progress":85}
+2023-05-11 16:35:58,443 - INFO - [16:35:58.443] - Load 24576/26336 {"progress":93}
+2023-05-11 16:35:58,468 - INFO - [16:35:58.468] - Load 26336/26336 {"progress":100}
+2023-05-11 16:35:58,469 - INFO - [16:35:58.469] - Load 26336/26336 {"progress":100}
+2023-05-11 16:35:58,469 - INFO - [16:35:58.469] - Write check
+2023-05-11 16:35:58,492 - INFO - [16:35:58.492] - Flash load time cost(ms): 444.9970703125
+2023-05-11 16:35:58,493 - INFO - [16:35:58.493] - Finished
+2023-05-11 16:35:58,495 - INFO - [16:35:58.494] - Sha caled by host: 74116ced68064190009cc13d1a47bfd0d5dfda7c3ffc581428defc069a9de786
+2023-05-11 16:35:58,496 - INFO - [16:35:58.496] - xip mode Verify
+2023-05-11 16:35:58,515 - INFO - [16:35:58.515] - Read Sha256/50032
+2023-05-11 16:35:58,516 - INFO - [16:35:58.515] - Flash xip readsha time cost(ms): 15.998046875
+2023-05-11 16:35:58,516 - INFO - [16:35:58.516] - Finished
+2023-05-11 16:35:58,520 - INFO - [16:35:58.520] - Sha caled by dev: 74116ced68064190009cc13d1a47bfd0d5dfda7c3ffc581428defc069a9de786
+2023-05-11 16:35:58,521 - INFO - [16:35:58.520] - Verify success
+2023-05-11 16:35:58,529 - INFO - [16:35:58.529] - Dealing Index 1
+2023-05-11 16:35:58,530 - INFO - [16:35:58.530] - ========= programming chips\bl602\partition\partition.bin
+2023-05-11 16:35:58,537 - INFO - [16:35:58.537] - ========= flash load =========
+2023-05-11 16:35:58,544 - INFO - [16:35:58.544] - Load 272/272 {"progress":100}
+2023-05-11 16:35:58,545 - INFO - [16:35:58.544] - Load 272/272 {"progress":100}
+2023-05-11 16:35:58,546 - INFO - [16:35:58.545] - Write check
+2023-05-11 16:35:58,556 - INFO - [16:35:58.556] - Flash load time cost(ms): 18.0009765625
+2023-05-11 16:35:58,557 - INFO - [16:35:58.556] - Finished
+2023-05-11 16:35:58,558 - INFO - [16:35:58.558] - Sha caled by host: fd6af18fc4aaf2807277cac767ca19d12af7b55f5ecbb8902ef28bc2430524aa
+2023-05-11 16:35:58,559 - INFO - [16:35:58.559] - xip mode Verify
+2023-05-11 16:35:58,565 - INFO - [16:35:58.565] - Read Sha256/272
+2023-05-11 16:35:58,566 - INFO - [16:35:58.566] - Flash xip readsha time cost(ms): 3.996337890625
+2023-05-11 16:35:58,566 - INFO - [16:35:58.566] - Finished
+2023-05-11 16:35:58,569 - INFO - [16:35:58.569] - Sha caled by dev: fd6af18fc4aaf2807277cac767ca19d12af7b55f5ecbb8902ef28bc2430524aa
+2023-05-11 16:35:58,570 - INFO - [16:35:58.570] - Verify success
+2023-05-11 16:35:58,579 - INFO - [16:35:58.578] - Dealing Index 2
+2023-05-11 16:35:58,580 - INFO - [16:35:58.580] - ========= programming chips\bl602\partition\partition.bin
+2023-05-11 16:35:58,587 - INFO - [16:35:58.587] - ========= flash load =========
+2023-05-11 16:35:58,594 - INFO - [16:35:58.594] - Load 272/272 {"progress":100}
+2023-05-11 16:35:58,595 - INFO - [16:35:58.595] - Load 272/272 {"progress":100}
+2023-05-11 16:35:58,596 - INFO - [16:35:58.596] - Write check
+2023-05-11 16:35:58,606 - INFO - [16:35:58.606] - Flash load time cost(ms): 17.998046875
+2023-05-11 16:35:58,607 - INFO - [16:35:58.606] - Finished
+2023-05-11 16:35:58,608 - INFO - [16:35:58.607] - Sha caled by host: fd6af18fc4aaf2807277cac767ca19d12af7b55f5ecbb8902ef28bc2430524aa
+2023-05-11 16:35:58,608 - INFO - [16:35:58.608] - xip mode Verify
+2023-05-11 16:35:58,615 - INFO - [16:35:58.615] - Read Sha256/272
+2023-05-11 16:35:58,616 - INFO - [16:35:58.615] - Flash xip readsha time cost(ms): 2.998291015625
+2023-05-11 16:35:58,616 - INFO - [16:35:58.616] - Finished
+2023-05-11 16:35:58,619 - INFO - [16:35:58.619] - Sha caled by dev: fd6af18fc4aaf2807277cac767ca19d12af7b55f5ecbb8902ef28bc2430524aa
+2023-05-11 16:35:58,620 - INFO - [16:35:58.619] - Verify success
+2023-05-11 16:35:58,627 - INFO - [16:35:58.627] - Dealing Index 3
+2023-05-11 16:35:58,628 - INFO - [16:35:58.628] - ========= programming chips\bl602\img_create_iot\whole_img.bin
+2023-05-11 16:35:58,637 - INFO - [16:35:58.636] - ========= flash load =========
+2023-05-11 16:35:58,725 - INFO - [16:35:58.725] - decompress flash load 39432
+2023-05-11 16:35:58,754 - INFO - [16:35:58.754] - Load 2048/39432 {"progress":5}
+2023-05-11 16:35:58,782 - INFO - [16:35:58.782] - Load 4096/39432 {"progress":10}
+2023-05-11 16:35:58,810 - INFO - [16:35:58.810] - Load 6144/39432 {"progress":15}
+2023-05-11 16:35:58,838 - INFO - [16:35:58.838] - Load 8192/39432 {"progress":20}
+2023-05-11 16:35:58,866 - INFO - [16:35:58.866] - Load 10240/39432 {"progress":25}
+2023-05-11 16:35:58,894 - INFO - [16:35:58.894] - Load 12288/39432 {"progress":31}
+2023-05-11 16:35:58,923 - INFO - [16:35:58.923] - Load 14336/39432 {"progress":36}
+2023-05-11 16:35:58,951 - INFO - [16:35:58.951] - Load 16384/39432 {"progress":41}
+2023-05-11 16:35:58,979 - INFO - [16:35:58.979] - Load 18432/39432 {"progress":46}
+2023-05-11 16:35:59,007 - INFO - [16:35:59.007] - Load 20480/39432 {"progress":51}
+2023-05-11 16:35:59,035 - INFO - [16:35:59.035] - Load 22528/39432 {"progress":57}
+2023-05-11 16:35:59,063 - INFO - [16:35:59.063] - Load 24576/39432 {"progress":62}
+2023-05-11 16:35:59,091 - INFO - [16:35:59.091] - Load 26624/39432 {"progress":67}
+2023-05-11 16:35:59,119 - INFO - [16:35:59.119] - Load 28672/39432 {"progress":72}
+2023-05-11 16:35:59,147 - INFO - [16:35:59.147] - Load 30720/39432 {"progress":77}
+2023-05-11 16:35:59,175 - INFO - [16:35:59.175] - Load 32768/39432 {"progress":83}
+2023-05-11 16:35:59,203 - INFO - [16:35:59.203] - Load 34816/39432 {"progress":88}
+2023-05-11 16:35:59,231 - INFO - [16:35:59.231] - Load 36864/39432 {"progress":93}
+2023-05-11 16:35:59,259 - INFO - [16:35:59.259] - Load 38912/39432 {"progress":98}
+2023-05-11 16:35:59,275 - INFO - [16:35:59.275] - Load 39432/39432 {"progress":100}
+2023-05-11 16:35:59,276 - INFO - [16:35:59.276] - Load 39432/39432 {"progress":100}
+2023-05-11 16:35:59,277 - INFO - [16:35:59.277] - Write check
+2023-05-11 16:35:59,292 - INFO - [16:35:59.292] - Flash load time cost(ms): 653.997314453125
+2023-05-11 16:35:59,293 - INFO - [16:35:59.293] - Finished
+2023-05-11 16:35:59,295 - INFO - [16:35:59.295] - Sha caled by host: f5ebbdbe0ea6289e69bd2d868ac43e4d5251cc69b027430a9da66871a70c6acd
+2023-05-11 16:35:59,296 - INFO - [16:35:59.296] - xip mode Verify
+2023-05-11 16:35:59,322 - INFO - [16:35:59.322] - Read Sha256/72832
+2023-05-11 16:35:59,323 - INFO - [16:35:59.323] - Flash xip readsha time cost(ms): 24.000244140625
+2023-05-11 16:35:59,324 - INFO - [16:35:59.324] - Finished
+2023-05-11 16:35:59,327 - INFO - [16:35:59.327] - Sha caled by dev: f5ebbdbe0ea6289e69bd2d868ac43e4d5251cc69b027430a9da66871a70c6acd
+2023-05-11 16:35:59,328 - INFO - [16:35:59.328] - Verify success
+2023-05-11 16:35:59,335 - INFO - [16:35:59.335] - Dealing Index 4
+2023-05-11 16:35:59,336 - INFO - [16:35:59.336] - ========= programming chips\bl602\device_tree\ro_params.dtb
+2023-05-11 16:35:59,344 - INFO - [16:35:59.344] - ========= flash load =========
+2023-05-11 16:35:59,362 - INFO - [16:35:59.362] - decompress flash load 1508
+2023-05-11 16:35:59,384 - INFO - [16:35:59.384] - Load 1508/1508 {"progress":100}
+2023-05-11 16:35:59,385 - INFO - [16:35:59.385] - Load 1508/1508 {"progress":100}
+2023-05-11 16:35:59,385 - INFO - [16:35:59.385] - Write check
+2023-05-11 16:35:59,411 - INFO - [16:35:59.411] - Flash load time cost(ms): 66.001220703125
+2023-05-11 16:35:59,412 - INFO - [16:35:59.411] - Finished
+2023-05-11 16:35:59,413 - INFO - [16:35:59.413] - Sha caled by host: 465321030a14218284175e8fc4c6ed55a6486e784c584338a3a1ac785be11255
+2023-05-11 16:35:59,414 - INFO - [16:35:59.413] - xip mode Verify
+2023-05-11 16:35:59,422 - INFO - [16:35:59.422] - Read Sha256/5726
+2023-05-11 16:35:59,423 - INFO - [16:35:59.423] - Flash xip readsha time cost(ms): 4.998291015625
+2023-05-11 16:35:59,423 - INFO - [16:35:59.423] - Finished
+2023-05-11 16:35:59,427 - INFO - [16:35:59.427] - Sha caled by dev: 465321030a14218284175e8fc4c6ed55a6486e784c584338a3a1ac785be11255
+2023-05-11 16:35:59,428 - INFO - [16:35:59.428] - Verify success
+2023-05-11 16:35:59,436 - INFO - [16:35:59.436] - Program Finished
+2023-05-11 16:35:59,437 - INFO - [16:35:59.437] - All time cost(ms): 17822.00146484375
+2023-05-11 16:35:59,549 - INFO - [16:35:59.549] - close interface
+2023-05-11 16:35:59,550 - INFO - [16:35:59.550] - [All Success]

@@ -10007,7 +10007,7 @@ LOAD /home/cbpeng/toolchain/Xuantie-900-gcc-elf-newlib-x86_64/bin/../lib/gcc/ris
                 0x0000000000000400                StackSize = 0x400
                 0x0000000000000000                PROVIDE (__metal_chicken_bit = 0x0)
 
-.text           0x0000000022010000     0xa68c
+.text           0x0000000022010000     0xa64c
                 0x0000000022010000                . = ALIGN (0x4)
                 0x0000000022010000                __text_code_start__ = .
  *(.text.metal.init.enter)
@@ -11046,262 +11046,261 @@ LOAD /home/cbpeng/toolchain/Xuantie-900-gcc-elf-newlib-x86_64/bin/../lib/gcc/ris
  .rodata.uartAddr
                 0x0000000022018d54        0x8 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_uart.o
  .rodata.str1.4
-                0x0000000022018d5c      0x156 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_sf_cfg_ext.o
- *fill*         0x0000000022018eb2        0x2 
+                0x0000000022018d5c      0x130 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_sf_cfg_ext.o
  .rodata.bflb_platform_init.str1.4
-                0x0000000022018eb4       0x14 out/BSP_Driver/BL702_BSP_Driver/platform_print/platform_device.o
+                0x0000000022018e8c       0x14 out/BSP_Driver/BL702_BSP_Driver/platform_print/platform_device.o
                                          0x13 (size before relaxing)
  .rodata.hexTable
-                0x0000000022018ec8       0x10 out/BSP_Driver/BL702_BSP_Driver/platform_print/platform_device.o
+                0x0000000022018ea0       0x10 out/BSP_Driver/BL702_BSP_Driver/platform_print/platform_device.o
  *(.srodata)
- .srodata       0x0000000022018ed8        0x4 out/startup/system_bl702.o
+ .srodata       0x0000000022018eb0        0x4 out/startup/system_bl702.o
  *(.srodata.*)
  .srodata.CSWTCH.7
-                0x0000000022018edc        0x4 out/ChipTest/Eflash_Loader/usb_if/usbd_conf.o
+                0x0000000022018eb4        0x4 out/ChipTest/Eflash_Loader/usb_if/usbd_conf.o
  *(.tcm_code)
- .tcm_code      0x0000000022018ee0       0xa4 out/ChipTest/Eflash_Loader/bflb_spi_flash.o
-                0x0000000022018ee0                bflb_flash_chip_erase
- .tcm_code      0x0000000022018f84       0x1c out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_ef_ctrl.o
-                0x0000000022018f84                EF_Ctrl_Read_Device_Info
- .tcm_code      0x0000000022018fa0      0x414 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_glb.o
-                0x0000000022018fa0                GLB_GPIO_Init
-                0x00000000220191c8                GLB_GPIO_INPUT_Enable
-                0x000000002201921e                GLB_GPIO_INPUT_Disable
-                0x000000002201927e                GLB_GPIO_OUTPUT_Enable
-                0x0000000022019296                GLB_GPIO_OUTPUT_Disable
-                0x00000000220192b2                GLB_GPIO_Set_HZ
- .tcm_code      0x00000000220193b4      0x432 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_hbn.o
-                0x00000000220193b4                HBN_Power_Down_Flash
-                0x00000000220193fe                HBN_Enable_Ext
-                0x00000000220194a6                HBN_Set_Ldo11_Aon_Vout
-                0x00000000220194ba                HBN_Set_Ldo11_Rt_Vout
-                0x00000000220194d2                HBN_Set_Ldo11_Soc_Vout
-                0x00000000220194ea                HBN_Set_Ldo11_All_Vout
-                0x000000002201951c                HBN_Set_Ldo11rt_Drive_Strength
-                0x0000000022019530                HBN_Mode_Enter
-                0x00000000220196ba                HBN_Hw_Pu_Pd_Cfg
-                0x00000000220196e0                HBN_Pin_WakeUp_Mask
-                0x00000000220196f4                HBN_Set_Pad_23_28_Pullnone
-                0x0000000022019708                HBN_Set_Pad_23_28_Pullup
-                0x0000000022019722                HBN_Set_Pad_23_28_Pulldown
-                0x000000002201973c                HBN_Set_Pad_23_28_ActiveIE
-                0x0000000022019756                HBN_Enable
- .tcm_code      0x00000000220197e6      0x26e out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_pds.o
-                0x00000000220197e6                PDS_RAM_Config
-                0x00000000220197f8                PDS_Set_Pad_Config
-                0x000000002201998c                PDS_App_Enable
-                0x00000000220199e6                PDS_Force_Config
-                0x00000000220199f6                PDS_Default_Level_Config
- .tcm_code      0x0000000022019a54      0x170 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_sf_cfg.o
-                0x0000000022019a54                SF_Cfg_Init_Ext_Flash_Gpio
-                0x0000000022019aee                SF_Cfg_Init_Flash_Gpio
- .tcm_code      0x0000000022019bc4      0x1ac out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_sf_cfg_ext.o
-                0x0000000022019bc4                SF_Cfg_Init_Internal_Flash_Gpio
-                0x0000000022019c38                SF_Cfg_Get_Flash_Cfg_Need_Lock_Ext
-                0x0000000022019cee                SF_Cfg_Flash_Identify_Ext
- .tcm_code      0x0000000022019d70      0x500 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_romapi.o
-                0x0000000022019d70                ASM_Delay_Us
-                0x0000000022019d7a                BL702_Delay_US
-                0x0000000022019d84                BL702_Delay_MS
-                0x0000000022019d8e                BL702_MemCpy
-                0x0000000022019d98                BL702_MemCpy4
-                0x0000000022019da2                BL702_MemCpy_Fast
-                0x0000000022019dac                ARCH_MemCpy_Fast
-                0x0000000022019db6                BL702_MemSet
-                0x0000000022019dc0                BL702_MemSet4
-                0x0000000022019dca                BL702_MemCmp
-                0x0000000022019dd4                BFLB_Soft_CRC32
-                0x0000000022019dde                GLB_SW_System_Reset
-                0x0000000022019de8                GLB_SW_CPU_Reset
-                0x0000000022019df2                GLB_SW_POR_Reset
-                0x0000000022019dfc                GLB_Select_Internal_Flash
-                0x0000000022019e06                GLB_Swap_Flash_Pin
-                0x0000000022019e10                GLB_Swap_Flash_CS_IO2_Pin
-                0x0000000022019e1a                GLB_Swap_Flash_IO0_IO3_Pin
-                0x0000000022019e24                GLB_Select_Internal_PSram
-                0x0000000022019e2e                GLB_Deswap_Flash_Pin
-                0x0000000022019e38                GLB_Select_External_Flash
-                0x0000000022019e42                GLB_GPIO_Get_Fun
-                0x0000000022019e4c                EF_Ctrl_Busy
-                0x0000000022019e56                EF_Ctrl_Sw_AHB_Clk_0
-                0x0000000022019e60                EF_Ctrl_Load_Efuse_R0
-                0x0000000022019e6a                EF_Ctrl_Clear
-                0x0000000022019e74                PDS_Reset
-                0x0000000022019e7e                PDS_Enable
-                0x0000000022019e88                PDS_Auto_Time_Config
-                0x0000000022019e92                PDS_Auto_Enable
-                0x0000000022019e9c                PDS_Manual_Force_Turn_Off
-                0x0000000022019ea6                PDS_Manual_Force_Turn_On
-                0x0000000022019eb0                HBN_Reset
-                0x0000000022019eba                HBN_GPIO_Dbg_Pull_Cfg
-                0x0000000022019ec4                XIP_SFlash_State_Save
-                0x0000000022019ece                XIP_SFlash_State_Restore
-                0x0000000022019ed8                XIP_SFlash_Erase_Need_Lock
-                0x0000000022019ee2                XIP_SFlash_Write_Need_Lock
-                0x0000000022019eec                XIP_SFlash_Read_Need_Lock
-                0x0000000022019ef6                XIP_SFlash_GetJedecId_Need_Lock
-                0x0000000022019f00                XIP_SFlash_GetDeviceId_Need_Lock
-                0x0000000022019f0a                XIP_SFlash_GetUniqueId_Need_Lock
-                0x0000000022019f14                XIP_SFlash_Read_Via_Cache_Need_Lock
-                0x0000000022019f1e                XIP_SFlash_Read_With_Lock
-                0x0000000022019f28                XIP_SFlash_Write_With_Lock
-                0x0000000022019f32                XIP_SFlash_Erase_With_Lock
-                0x0000000022019f3c                SFlash_Init
-                0x0000000022019f46                SFlash_SetSPIMode
-                0x0000000022019f50                SFlash_Read_Reg
-                0x0000000022019f5a                SFlash_Write_Reg
-                0x0000000022019f64                SFlash_Read_Reg_With_Cmd
-                0x0000000022019f6e                SFlash_Write_Reg_With_Cmd
-                0x0000000022019f78                SFlash_Busy
-                0x0000000022019f82                SFlash_Write_Enable
-                0x0000000022019f8c                SFlash_Qspi_Enable
-                0x0000000022019f96                SFlash_Volatile_Reg_Write_Enable
-                0x0000000022019fa0                SFlash_Chip_Erase
-                0x0000000022019faa                SFlash_Sector_Erase
-                0x0000000022019fb4                SFlash_Blk32_Erase
-                0x0000000022019fbe                SFlash_Blk64_Erase
-                0x0000000022019fc8                SFlash_Erase
-                0x0000000022019fd2                SFlash_Program
-                0x0000000022019fdc                SFlash_GetUniqueId
-                0x0000000022019fe6                SFlash_GetJedecId
-                0x0000000022019ff0                SFlash_GetDeviceId
-                0x0000000022019ffa                SFlash_Powerdown
-                0x000000002201a004                SFlash_Releae_Powerdown
-                0x000000002201a00e                SFlash_Restore_From_Powerdown
-                0x000000002201a018                SFlash_SetBurstWrap
-                0x000000002201a022                SFlash_DisableBurstWrap
-                0x000000002201a02c                SFlash_Software_Reset
-                0x000000002201a036                SFlash_Reset_Continue_Read
-                0x000000002201a040                SFlash_Set_IDbus_Cfg
-                0x000000002201a04a                SFlash_IDbus_Read_Enable
-                0x000000002201a054                SFlash_Cache_Read_Enable
-                0x000000002201a05e                SFlash_Cache_Read_Disable
-                0x000000002201a068                SFlash_Read
-                0x000000002201a072                L1C_Cache_Enable_Set
-                0x000000002201a07c                L1C_Cache_Write_Set
-                0x000000002201a086                L1C_Cache_Flush
-                0x000000002201a090                L1C_Cache_Hit_Count_Get
-                0x000000002201a09a                L1C_Cache_Miss_Count_Get
-                0x000000002201a0a4                L1C_Cache_Read_Disable
-                0x000000002201a0ae                L1C_Set_Wrap
-                0x000000002201a0b8                L1C_Set_Way_Disable
-                0x000000002201a0c2                L1C_IROM_2T_Access_Set
-                0x000000002201a0cc                SF_Ctrl_Enable
-                0x000000002201a0d6                SF_Ctrl_Get_Clock_Delay
-                0x000000002201a0e0                SF_Ctrl_Set_Clock_Delay
-                0x000000002201a0ea                SF_Ctrl_Cmds_Set
-                0x000000002201a0f4                SF_Ctrl_Set_Owner
-                0x000000002201a0fe                SF_Ctrl_Disable
-                0x000000002201a108                SF_Ctrl_Select_Pad
-                0x000000002201a112                SF_Ctrl_Select_Bank
-                0x000000002201a11c                SF_Ctrl_AES_Enable_BE
-                0x000000002201a126                SF_Ctrl_AES_Enable_LE
-                0x000000002201a130                SF_Ctrl_AES_Set_Region
-                0x000000002201a13a                SF_Ctrl_AES_Set_Key
-                0x000000002201a144                SF_Ctrl_AES_Set_Key_BE
-                0x000000002201a14e                SF_Ctrl_AES_Set_IV
-                0x000000002201a158                SF_Ctrl_AES_Set_IV_BE
-                0x000000002201a162                SF_Ctrl_AES_Enable
-                0x000000002201a16c                SF_Ctrl_AES_Disable
-                0x000000002201a176                SF_Ctrl_Is_AES_Enable
-                0x000000002201a180                SF_Ctrl_Set_Flash_Image_Offset
-                0x000000002201a18a                SF_Ctrl_Get_Flash_Image_Offset
-                0x000000002201a194                SF_Ctrl_Select_Clock
-                0x000000002201a19e                SF_Ctrl_SendCmd
-                0x000000002201a1a8                SF_Ctrl_Flash_Read_Icache_Set
-                0x000000002201a1b2                SF_Ctrl_Psram_Write_Icache_Set
-                0x000000002201a1bc                SF_Ctrl_Psram_Read_Icache_Set
-                0x000000002201a1c6                SF_Ctrl_GetBusyState
-                0x000000002201a1d0                SF_Cfg_Deinit_Ext_Flash_Gpio
-                0x000000002201a1da                SF_Cfg_Get_Flash_Cfg_Need_Lock
-                0x000000002201a1e4                SF_Cfg_Flash_Identify
-                0x000000002201a1ee                Psram_ReadReg
-                0x000000002201a1f8                Psram_WriteReg
-                0x000000002201a202                Psram_SetDriveStrength
-                0x000000002201a20c                Psram_SetBurstWrap
-                0x000000002201a216                Psram_ReadId
-                0x000000002201a220                Psram_EnterQuadMode
-                0x000000002201a22a                Psram_ExitQuadMode
-                0x000000002201a234                Psram_ToggleBurstLength
-                0x000000002201a23e                Psram_SoftwareReset
-                0x000000002201a248                Psram_Set_IDbus_Cfg
-                0x000000002201a252                Psram_Cache_Write_Set
-                0x000000002201a25c                Psram_Write
-                0x000000002201a266                Psram_Read
+ .tcm_code      0x0000000022018eb8       0xa4 out/ChipTest/Eflash_Loader/bflb_spi_flash.o
+                0x0000000022018eb8                bflb_flash_chip_erase
+ .tcm_code      0x0000000022018f5c       0x1c out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_ef_ctrl.o
+                0x0000000022018f5c                EF_Ctrl_Read_Device_Info
+ .tcm_code      0x0000000022018f78      0x414 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_glb.o
+                0x0000000022018f78                GLB_GPIO_Init
+                0x00000000220191a0                GLB_GPIO_INPUT_Enable
+                0x00000000220191f6                GLB_GPIO_INPUT_Disable
+                0x0000000022019256                GLB_GPIO_OUTPUT_Enable
+                0x000000002201926e                GLB_GPIO_OUTPUT_Disable
+                0x000000002201928a                GLB_GPIO_Set_HZ
+ .tcm_code      0x000000002201938c      0x432 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_hbn.o
+                0x000000002201938c                HBN_Power_Down_Flash
+                0x00000000220193d6                HBN_Enable_Ext
+                0x000000002201947e                HBN_Set_Ldo11_Aon_Vout
+                0x0000000022019492                HBN_Set_Ldo11_Rt_Vout
+                0x00000000220194aa                HBN_Set_Ldo11_Soc_Vout
+                0x00000000220194c2                HBN_Set_Ldo11_All_Vout
+                0x00000000220194f4                HBN_Set_Ldo11rt_Drive_Strength
+                0x0000000022019508                HBN_Mode_Enter
+                0x0000000022019692                HBN_Hw_Pu_Pd_Cfg
+                0x00000000220196b8                HBN_Pin_WakeUp_Mask
+                0x00000000220196cc                HBN_Set_Pad_23_28_Pullnone
+                0x00000000220196e0                HBN_Set_Pad_23_28_Pullup
+                0x00000000220196fa                HBN_Set_Pad_23_28_Pulldown
+                0x0000000022019714                HBN_Set_Pad_23_28_ActiveIE
+                0x000000002201972e                HBN_Enable
+ .tcm_code      0x00000000220197be      0x26e out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_pds.o
+                0x00000000220197be                PDS_RAM_Config
+                0x00000000220197d0                PDS_Set_Pad_Config
+                0x0000000022019964                PDS_App_Enable
+                0x00000000220199be                PDS_Force_Config
+                0x00000000220199ce                PDS_Default_Level_Config
+ .tcm_code      0x0000000022019a2c      0x170 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_sf_cfg.o
+                0x0000000022019a2c                SF_Cfg_Init_Ext_Flash_Gpio
+                0x0000000022019ac6                SF_Cfg_Init_Flash_Gpio
+ .tcm_code      0x0000000022019b9c      0x1ac out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_sf_cfg_ext.o
+                0x0000000022019b9c                SF_Cfg_Init_Internal_Flash_Gpio
+                0x0000000022019c10                SF_Cfg_Get_Flash_Cfg_Need_Lock_Ext
+                0x0000000022019cc6                SF_Cfg_Flash_Identify_Ext
+ .tcm_code      0x0000000022019d48      0x500 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_romapi.o
+                0x0000000022019d48                ASM_Delay_Us
+                0x0000000022019d52                BL702_Delay_US
+                0x0000000022019d5c                BL702_Delay_MS
+                0x0000000022019d66                BL702_MemCpy
+                0x0000000022019d70                BL702_MemCpy4
+                0x0000000022019d7a                BL702_MemCpy_Fast
+                0x0000000022019d84                ARCH_MemCpy_Fast
+                0x0000000022019d8e                BL702_MemSet
+                0x0000000022019d98                BL702_MemSet4
+                0x0000000022019da2                BL702_MemCmp
+                0x0000000022019dac                BFLB_Soft_CRC32
+                0x0000000022019db6                GLB_SW_System_Reset
+                0x0000000022019dc0                GLB_SW_CPU_Reset
+                0x0000000022019dca                GLB_SW_POR_Reset
+                0x0000000022019dd4                GLB_Select_Internal_Flash
+                0x0000000022019dde                GLB_Swap_Flash_Pin
+                0x0000000022019de8                GLB_Swap_Flash_CS_IO2_Pin
+                0x0000000022019df2                GLB_Swap_Flash_IO0_IO3_Pin
+                0x0000000022019dfc                GLB_Select_Internal_PSram
+                0x0000000022019e06                GLB_Deswap_Flash_Pin
+                0x0000000022019e10                GLB_Select_External_Flash
+                0x0000000022019e1a                GLB_GPIO_Get_Fun
+                0x0000000022019e24                EF_Ctrl_Busy
+                0x0000000022019e2e                EF_Ctrl_Sw_AHB_Clk_0
+                0x0000000022019e38                EF_Ctrl_Load_Efuse_R0
+                0x0000000022019e42                EF_Ctrl_Clear
+                0x0000000022019e4c                PDS_Reset
+                0x0000000022019e56                PDS_Enable
+                0x0000000022019e60                PDS_Auto_Time_Config
+                0x0000000022019e6a                PDS_Auto_Enable
+                0x0000000022019e74                PDS_Manual_Force_Turn_Off
+                0x0000000022019e7e                PDS_Manual_Force_Turn_On
+                0x0000000022019e88                HBN_Reset
+                0x0000000022019e92                HBN_GPIO_Dbg_Pull_Cfg
+                0x0000000022019e9c                XIP_SFlash_State_Save
+                0x0000000022019ea6                XIP_SFlash_State_Restore
+                0x0000000022019eb0                XIP_SFlash_Erase_Need_Lock
+                0x0000000022019eba                XIP_SFlash_Write_Need_Lock
+                0x0000000022019ec4                XIP_SFlash_Read_Need_Lock
+                0x0000000022019ece                XIP_SFlash_GetJedecId_Need_Lock
+                0x0000000022019ed8                XIP_SFlash_GetDeviceId_Need_Lock
+                0x0000000022019ee2                XIP_SFlash_GetUniqueId_Need_Lock
+                0x0000000022019eec                XIP_SFlash_Read_Via_Cache_Need_Lock
+                0x0000000022019ef6                XIP_SFlash_Read_With_Lock
+                0x0000000022019f00                XIP_SFlash_Write_With_Lock
+                0x0000000022019f0a                XIP_SFlash_Erase_With_Lock
+                0x0000000022019f14                SFlash_Init
+                0x0000000022019f1e                SFlash_SetSPIMode
+                0x0000000022019f28                SFlash_Read_Reg
+                0x0000000022019f32                SFlash_Write_Reg
+                0x0000000022019f3c                SFlash_Read_Reg_With_Cmd
+                0x0000000022019f46                SFlash_Write_Reg_With_Cmd
+                0x0000000022019f50                SFlash_Busy
+                0x0000000022019f5a                SFlash_Write_Enable
+                0x0000000022019f64                SFlash_Qspi_Enable
+                0x0000000022019f6e                SFlash_Volatile_Reg_Write_Enable
+                0x0000000022019f78                SFlash_Chip_Erase
+                0x0000000022019f82                SFlash_Sector_Erase
+                0x0000000022019f8c                SFlash_Blk32_Erase
+                0x0000000022019f96                SFlash_Blk64_Erase
+                0x0000000022019fa0                SFlash_Erase
+                0x0000000022019faa                SFlash_Program
+                0x0000000022019fb4                SFlash_GetUniqueId
+                0x0000000022019fbe                SFlash_GetJedecId
+                0x0000000022019fc8                SFlash_GetDeviceId
+                0x0000000022019fd2                SFlash_Powerdown
+                0x0000000022019fdc                SFlash_Releae_Powerdown
+                0x0000000022019fe6                SFlash_Restore_From_Powerdown
+                0x0000000022019ff0                SFlash_SetBurstWrap
+                0x0000000022019ffa                SFlash_DisableBurstWrap
+                0x000000002201a004                SFlash_Software_Reset
+                0x000000002201a00e                SFlash_Reset_Continue_Read
+                0x000000002201a018                SFlash_Set_IDbus_Cfg
+                0x000000002201a022                SFlash_IDbus_Read_Enable
+                0x000000002201a02c                SFlash_Cache_Read_Enable
+                0x000000002201a036                SFlash_Cache_Read_Disable
+                0x000000002201a040                SFlash_Read
+                0x000000002201a04a                L1C_Cache_Enable_Set
+                0x000000002201a054                L1C_Cache_Write_Set
+                0x000000002201a05e                L1C_Cache_Flush
+                0x000000002201a068                L1C_Cache_Hit_Count_Get
+                0x000000002201a072                L1C_Cache_Miss_Count_Get
+                0x000000002201a07c                L1C_Cache_Read_Disable
+                0x000000002201a086                L1C_Set_Wrap
+                0x000000002201a090                L1C_Set_Way_Disable
+                0x000000002201a09a                L1C_IROM_2T_Access_Set
+                0x000000002201a0a4                SF_Ctrl_Enable
+                0x000000002201a0ae                SF_Ctrl_Get_Clock_Delay
+                0x000000002201a0b8                SF_Ctrl_Set_Clock_Delay
+                0x000000002201a0c2                SF_Ctrl_Cmds_Set
+                0x000000002201a0cc                SF_Ctrl_Set_Owner
+                0x000000002201a0d6                SF_Ctrl_Disable
+                0x000000002201a0e0                SF_Ctrl_Select_Pad
+                0x000000002201a0ea                SF_Ctrl_Select_Bank
+                0x000000002201a0f4                SF_Ctrl_AES_Enable_BE
+                0x000000002201a0fe                SF_Ctrl_AES_Enable_LE
+                0x000000002201a108                SF_Ctrl_AES_Set_Region
+                0x000000002201a112                SF_Ctrl_AES_Set_Key
+                0x000000002201a11c                SF_Ctrl_AES_Set_Key_BE
+                0x000000002201a126                SF_Ctrl_AES_Set_IV
+                0x000000002201a130                SF_Ctrl_AES_Set_IV_BE
+                0x000000002201a13a                SF_Ctrl_AES_Enable
+                0x000000002201a144                SF_Ctrl_AES_Disable
+                0x000000002201a14e                SF_Ctrl_Is_AES_Enable
+                0x000000002201a158                SF_Ctrl_Set_Flash_Image_Offset
+                0x000000002201a162                SF_Ctrl_Get_Flash_Image_Offset
+                0x000000002201a16c                SF_Ctrl_Select_Clock
+                0x000000002201a176                SF_Ctrl_SendCmd
+                0x000000002201a180                SF_Ctrl_Flash_Read_Icache_Set
+                0x000000002201a18a                SF_Ctrl_Psram_Write_Icache_Set
+                0x000000002201a194                SF_Ctrl_Psram_Read_Icache_Set
+                0x000000002201a19e                SF_Ctrl_GetBusyState
+                0x000000002201a1a8                SF_Cfg_Deinit_Ext_Flash_Gpio
+                0x000000002201a1b2                SF_Cfg_Get_Flash_Cfg_Need_Lock
+                0x000000002201a1bc                SF_Cfg_Flash_Identify
+                0x000000002201a1c6                Psram_ReadReg
+                0x000000002201a1d0                Psram_WriteReg
+                0x000000002201a1da                Psram_SetDriveStrength
+                0x000000002201a1e4                Psram_SetBurstWrap
+                0x000000002201a1ee                Psram_ReadId
+                0x000000002201a1f8                Psram_EnterQuadMode
+                0x000000002201a202                Psram_ExitQuadMode
+                0x000000002201a20c                Psram_ToggleBurstLength
+                0x000000002201a216                Psram_SoftwareReset
+                0x000000002201a220                Psram_Set_IDbus_Cfg
+                0x000000002201a22a                Psram_Cache_Write_Set
+                0x000000002201a234                Psram_Write
+                0x000000002201a23e                Psram_Read
  *(.tcm_const)
- *fill*         0x000000002201a270        0x0 
- .tcm_const     0x000000002201a270      0x240 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_sf_cfg_ext.o
+ *fill*         0x000000002201a248        0x0 
+ .tcm_const     0x000000002201a248      0x228 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_sf_cfg_ext.o
  *(.sclock_rlt_code)
  .sclock_rlt_code
-                0x000000002201a4b0       0x92 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_hbn.o
-                0x000000002201a4b0                HBN_32K_Sel
-                0x000000002201a4d4                HBN_Power_On_Xtal_32K
-                0x000000002201a4fa                HBN_Power_Off_Xtal_32K
-                0x000000002201a512                HBN_Power_On_RC32K
-                0x000000002201a532                HBN_Power_Off_RC32K
+                0x000000002201a470       0x92 out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_hbn.o
+                0x000000002201a470                HBN_32K_Sel
+                0x000000002201a494                HBN_Power_On_Xtal_32K
+                0x000000002201a4ba                HBN_Power_Off_Xtal_32K
+                0x000000002201a4d2                HBN_Power_On_RC32K
+                0x000000002201a4f2                HBN_Power_Off_RC32K
  .sclock_rlt_code
-                0x000000002201a542      0x14a out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_romapi.o
-                0x000000002201a542                AON_Power_On_MBG
-                0x000000002201a54c                AON_Power_Off_MBG
-                0x000000002201a556                AON_Power_On_XTAL
-                0x000000002201a560                AON_Set_Xtal_CapCode
-                0x000000002201a56a                AON_Power_Off_XTAL
-                0x000000002201a574                GLB_Get_Root_CLK_Sel
-                0x000000002201a57e                GLB_Set_System_CLK_Div
-                0x000000002201a588                GLB_Get_BCLK_Div
-                0x000000002201a592                GLB_Get_HCLK_Div
-                0x000000002201a59c                Update_SystemCoreClockWith_XTAL
-                0x000000002201a5a6                GLB_Set_System_CLK
-                0x000000002201a5b0                System_Core_Clock_Update_From_RC32M
-                0x000000002201a5ba                GLB_Set_SF_CLK
-                0x000000002201a5c4                GLB_Power_Off_DLL
-                0x000000002201a5ce                GLB_Power_On_DLL
-                0x000000002201a5d8                GLB_Enable_DLL_All_Clks
-                0x000000002201a5e2                GLB_Enable_DLL_Clk
-                0x000000002201a5ec                GLB_Disable_DLL_All_Clks
-                0x000000002201a5f6                GLB_Disable_DLL_Clk
-                0x000000002201a600                EF_Ctrl_Get_Trim_Parity
-                0x000000002201a60a                EF_Ctrl_Read_RC32K_Trim
-                0x000000002201a614                EF_Ctrl_Read_RC32M_Trim
-                0x000000002201a61e                PDS_Trim_RC32M
-                0x000000002201a628                PDS_Select_RC32M_As_PLL_Ref
-                0x000000002201a632                PDS_Select_XTAL_As_PLL_Ref
-                0x000000002201a63c                PDS_Power_On_PLL
-                0x000000002201a646                PDS_Enable_PLL_All_Clks
-                0x000000002201a650                PDS_Disable_PLL_All_Clks
-                0x000000002201a65a                PDS_Enable_PLL_Clk
-                0x000000002201a664                PDS_Disable_PLL_Clk
-                0x000000002201a66e                PDS_Power_Off_PLL
-                0x000000002201a678                HBN_Trim_RC32K
-                0x000000002201a682                HBN_Set_ROOT_CLK_Sel
+                0x000000002201a502      0x14a out/BSP_Driver/BL702_BSP_Driver/StdDriver/bl702_romapi.o
+                0x000000002201a502                AON_Power_On_MBG
+                0x000000002201a50c                AON_Power_Off_MBG
+                0x000000002201a516                AON_Power_On_XTAL
+                0x000000002201a520                AON_Set_Xtal_CapCode
+                0x000000002201a52a                AON_Power_Off_XTAL
+                0x000000002201a534                GLB_Get_Root_CLK_Sel
+                0x000000002201a53e                GLB_Set_System_CLK_Div
+                0x000000002201a548                GLB_Get_BCLK_Div
+                0x000000002201a552                GLB_Get_HCLK_Div
+                0x000000002201a55c                Update_SystemCoreClockWith_XTAL
+                0x000000002201a566                GLB_Set_System_CLK
+                0x000000002201a570                System_Core_Clock_Update_From_RC32M
+                0x000000002201a57a                GLB_Set_SF_CLK
+                0x000000002201a584                GLB_Power_Off_DLL
+                0x000000002201a58e                GLB_Power_On_DLL
+                0x000000002201a598                GLB_Enable_DLL_All_Clks
+                0x000000002201a5a2                GLB_Enable_DLL_Clk
+                0x000000002201a5ac                GLB_Disable_DLL_All_Clks
+                0x000000002201a5b6                GLB_Disable_DLL_Clk
+                0x000000002201a5c0                EF_Ctrl_Get_Trim_Parity
+                0x000000002201a5ca                EF_Ctrl_Read_RC32K_Trim
+                0x000000002201a5d4                EF_Ctrl_Read_RC32M_Trim
+                0x000000002201a5de                PDS_Trim_RC32M
+                0x000000002201a5e8                PDS_Select_RC32M_As_PLL_Ref
+                0x000000002201a5f2                PDS_Select_XTAL_As_PLL_Ref
+                0x000000002201a5fc                PDS_Power_On_PLL
+                0x000000002201a606                PDS_Enable_PLL_All_Clks
+                0x000000002201a610                PDS_Disable_PLL_All_Clks
+                0x000000002201a61a                PDS_Enable_PLL_Clk
+                0x000000002201a624                PDS_Disable_PLL_Clk
+                0x000000002201a62e                PDS_Power_Off_PLL
+                0x000000002201a638                HBN_Trim_RC32K
+                0x000000002201a642                HBN_Set_ROOT_CLK_Sel
  *(.sclock_rlt_const)
-                0x000000002201a68c                . = ALIGN (0x4)
- *fill*         0x000000002201a68c        0x0 
-                0x000000002201a68c                __text_code_end__ = .
+                0x000000002201a64c                . = ALIGN (0x4)
+ *fill*         0x000000002201a64c        0x0 
+                0x000000002201a64c                __text_code_end__ = .
 
-.rela.dyn       0x000000002201a68c        0x0
+.rela.dyn       0x000000002201a64c        0x0
  .rela.text.startup.main
-                0x000000002201a68c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
+                0x000000002201a64c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
  .rela.text.bflb_spi_flash_init
-                0x000000002201a68c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
+                0x000000002201a64c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
  .rela.text.start_load
-                0x000000002201a68c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
- .rela.init     0x000000002201a68c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
+                0x000000002201a64c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
+ .rela.init     0x000000002201a64c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
  .rela.text.metal.init.enter
-                0x000000002201a68c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
+                0x000000002201a64c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
  .rela.tcm_code
-                0x000000002201a68c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
-                0x000000002201a68c                . = ALIGN (0x4)
-                0x000000002201a68c                __itcm_load_addr = .
+                0x000000002201a64c        0x0 out/ChipTest/Eflash_Loader/eflash_loader.o
+                0x000000002201a64c                . = ALIGN (0x4)
+                0x000000002201a64c                __itcm_load_addr = .
 
-.itcm_region    0x000000002201a68c        0x0
-                0x000000002201a68c                . = ALIGN (0x4)
-                0x000000002201a68c                __tcm_code_start__ = .
-                0x000000002201a68c                . = ALIGN (0x4)
-                0x000000002201a68c                __tcm_code_end__ = .
-                0x000000002201a68c                __dtcm_load_addr = (__itcm_load_addr + SIZEOF (.itcm_region))
+.itcm_region    0x000000002201a64c        0x0
+                0x000000002201a64c                . = ALIGN (0x4)
+                0x000000002201a64c                __tcm_code_start__ = .
+                0x000000002201a64c                . = ALIGN (0x4)
+                0x000000002201a64c                __tcm_code_end__ = .
+                0x000000002201a64c                __dtcm_load_addr = (__itcm_load_addr + SIZEOF (.itcm_region))
 
-.dtcm_region    0x000000004201c000        0x0 load address 0x000000002201a68c
+.dtcm_region    0x000000004201c000        0x0 load address 0x000000002201a64c
                 0x000000004201c000                . = ALIGN (0x4)
                 0x000000004201c000                __tcm_data_start__ = .
  *(.tcm_data)
@@ -11316,10 +11315,10 @@ LOAD /home/cbpeng/toolchain/Xuantie-900-gcc-elf-newlib-x86_64/bin/../lib/gcc/ris
                 0x0000000042020000                __StackTop = (ORIGIN (dtcm_memory) + LENGTH (dtcm_memory))
                 0x000000004201fc00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x0000000000000001                ASSERT ((__StackLimit >= __tcm_data_end__), region RAM overflowed with stack)
-                0x000000002201a68c                __system_ram_load_addr = (__dtcm_load_addr + SIZEOF (.dtcm_region))
+                0x000000002201a64c                __system_ram_load_addr = (__dtcm_load_addr + SIZEOF (.dtcm_region))
 
 .system_ram_data_region
-                0x0000000042020000     0x3d0c load address 0x000000002201a68c
+                0x0000000042020000     0x3d0c load address 0x000000002201a64c
                 0x0000000042020000                . = ALIGN (0x4)
                 0x0000000042020000                __system_ram_data_start__ = .
  *(.system_ram)
@@ -11332,9 +11331,9 @@ LOAD /home/cbpeng/toolchain/Xuantie-900-gcc-elf-newlib-x86_64/bin/../lib/gcc/ris
  .system_ram    0x0000000042022d0c     0x1000 out/BSP_Driver/BL702_BSP_Driver/platform_print/platform_device.o
                 0x0000000042023d0c                . = ALIGN (0x4)
                 0x0000000042023d0c                __system_ram_data_end__ = .
-                0x000000002201e398                __ram_load_addr = (__system_ram_load_addr + SIZEOF (.system_ram_data_region))
+                0x000000002201e358                __ram_load_addr = (__system_ram_load_addr + SIZEOF (.system_ram_data_region))
 
-RAM_DATA        0x0000000042023d0c      0x3a4 load address 0x000000002201e398
+RAM_DATA        0x0000000042023d0c      0x3a4 load address 0x000000002201e358
                 0x0000000042023d0c                . = ALIGN (0x4)
                 0x0000000042023d0c                __ram_data_start__ = .
                 0x000000004202450c                PROVIDE (__global_pointer$ = (. + 0x800))
@@ -11403,7 +11402,7 @@ RAM_DATA        0x0000000042023d0c      0x3a4 load address 0x000000002201e398
                 0x00000000420240b0                . = ALIGN (0x4)
                 0x00000000420240b0                __ram_data_end__ = .
 
-.bss            0x00000000420240b0     0x6ba4 load address 0x000000002201e73c
+.bss            0x00000000420240b0     0x6ba4 load address 0x000000002201e6fc
                 0x00000000420240b0                . = ALIGN (0x4)
                 0x00000000420240b0                __bss_start__ = .
  *(.bss*)

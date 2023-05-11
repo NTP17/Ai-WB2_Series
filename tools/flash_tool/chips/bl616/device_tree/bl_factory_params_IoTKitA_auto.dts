@@ -304,22 +304,29 @@
         brd_rf {
             xtal_mode = "MF";
             xtal = <36 36 0 60 60>;
+            /*
+            pwr_table = <   4 3 3 186
+                            4 3 4 176
+                            4 3 5 167
+                            3 3 0 159
+                            3 3 1 149
+                            3 3 2 140
+                            3 3 3 129
+                            3 3 4 119
+                            3 3 5 110
+                            2 3 0 101
+                            2 3 1 91
+                            2 3 2 82
+                            2 3 3 72
+                            2 3 4 62
+                            2 3 5 52
+                            1 3 3 10>;
+            */
             pwr_mode = "bf";//B: only use power offset in EFUSE; b: use power offset in EFUSE with incremental mode; F: only use power offset in Flash; f: use power offset in Flash with incremental mode
-            pwr_table_11b        = <20 20 20 20>;//1Mbps 2Mbps 5.5Mbps 11Mbps
-            pwr_table_11g        = <18 18 18 18 18 18 16 16>; //6Mbps 9Mbps 12Mbps 18MBps 24Mbps 36Mbps 48Mbps 54Mbps
-            pwr_table_11n_ht20  = <18 18 18 18 18 16 15 15>; //MCS0~MCS7
-            pwr_table_11n_ht40  = <18 18 18 18 18 16 15 14>; //MCS0~MCS7
-            pwr_table_11ac_vht20 = <18 18 18 18 18 16 15 15 15 14>; //MSC0~MSC9
-            pwr_table_11ac_vht40 = <18 18 18 18 18 16 15 14 14 13>; //MSC0~MSC9
-            pwr_table_11ac_vht80 = <18 18 18 18 18 15 14 13 13 12>; //MSC0~MSC9
-            pwr_table_11ax_he20  = <18 18 18 18 18 16 15 15 15 14 13 13>; //MSC0~MSC11
-            pwr_table_11ax_he40  = <18 18 18 18 18 16 15 14 14 13 12 12>; //MSC0~MSC11
-            pwr_table_11ax_he80  = <18 18 18 18 18 15 14 13 13 12 11 11>; //MSC0~MSC11
-            pwr_table_11ax_he160 = <18 18 18 18 18 15 14 13 12 11 10 10>; //MSC0~MSC11
-            
-            pwr_offset = <16 16 16 16 16 16 16 16 16 16 16 16 16 16>;//due to the limit of current DTC, negative value is used. So we work around by adding all the poweroffset with 16.
-            pwr_offset_lp = <16 16 16 16 16 16 16 16 16 16 16 16 16 16>;   
-            //so 14 represents -0.5dBm; 16 represents 0dBm; 20 represents 1dBm;(step is 0.25dBm)
+            pwr_table_11b = <20 20 20 18>;//1Mbps 2Mbps 5.5Mbps 11Mbps
+            pwr_table_11g = <18 18 18 18 18 18 14 14>; //6Mbps 9Mbps 12Mbps 18MBps 24Mbps 36Mbps 48Mbps 54Mbps
+            pwr_table_11n = <18 18 18 18 18 16 14 14>; //MCS0 MCS1 MCS2 MCS3 MCS4 MCS5 MCS6 MCS7
+            pwr_offset = <16 16 16 16 16 16 16 16 16 16 16 16 16 16>;//due to the limit of current DTC, negative value is used. So we work around by adding all the poweroffset with 10. so 8 represents -2; 10 represents 0; 13 represents 3
         };
         rf_temp {
             en_tcal = <0>;
@@ -331,22 +338,11 @@
             //negative value is NOT supported. So we use '256' for 0, '255' for -1, '257' for 1,'511' for 256
         };
     };
-    bluetooth_zigbee {
+    bluetooth {
         #address-cells = <1>;
         #size-cells = <1>;
         brd_rf {
-            pwr_table_ble = <13>; //range:0~15dbm
-            pwr_table_bt = <10 8 8>; //BR 1M,EDR 2M,EDR 3M
-            pwr_table_zigbee = <13>; //range:0~15dbm
-            pwr_offset = <16 16 16 16 16>; //step is 0.25dBm
-            
-        };
-    };
-    info {
-        #address-cells = <1>;
-        #size-cells = <1>;
-        brd {
-            country_code = <86>; 
+            pwr_table_ble = <13>;  //range:0~15dbm
         };
     };
 };

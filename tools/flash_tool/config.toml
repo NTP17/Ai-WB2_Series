@@ -1,4 +1,2 @@
 [param]
 chip = "BL602/604"
-style = "fusion"
-mode = "normal"

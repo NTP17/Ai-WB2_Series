@@ -39,8 +39,8 @@ security= 1
 type = 10
 name = "mfg"
 device = 0
-address0 = 0xD8000
-size0 = 0x88000
+address0 = 0x160000
+size0 = 0x10000
 address1 = 0
 size1 = 0
 # compressed image must set len,normal image can left it to 0
